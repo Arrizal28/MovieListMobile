@@ -58,6 +58,8 @@ class HomeFragment : Fragment() {
                             binding.viewError.tvError.text =
                                 movie.message ?: getString(R.string.something_wrong)
                         }
+
+                        else -> {}
                     }
                 }
             }

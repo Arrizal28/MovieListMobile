@@ -1,5 +1,6 @@
 package com.fourrz.movielist.core.data.source.local.entity
 
+import android.annotation.SuppressLint
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -22,6 +23,7 @@ data class MovieEntity(
     @ColumnInfo(name = "voteAverage")
     var voteAverage: Double,
 
+    @SuppressLint("KotlinNullnessAnnotation")
     @PrimaryKey
     @NonNull
     @ColumnInfo(name = "id")
