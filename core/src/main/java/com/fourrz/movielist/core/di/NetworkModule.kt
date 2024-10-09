@@ -21,8 +21,8 @@ class NetworkModule {
     fun provideOkHttpClient(): OkHttpClient {
         val hostname = "api.themoviedb.org"
         val certificatePinner = CertificatePinner.Builder()
-            .add(hostname, "sha256/5VLcahb6x4EvvFrCF2TePZulWqrLHS2jCg9Ywv6JHog=")
-            .add(hostname, "sha256/vxRon/El5KuI4vx5ey1DgmsYmRY0nDd5Cg4GfJ8S+bg=")
+            .add(hostname, "sha256/k1Hdw5sdSn5kh/gemLVSQD/P4i4IBQEY1tW4WNxh9XM=")
+            .add(hostname, "sha256/18tkPyr2nckv4fgo0dhAkaUtJ2hu2831xlO2SKhq8dg=")
             .build()
         return OkHttpClient.Builder()
             .addInterceptor(

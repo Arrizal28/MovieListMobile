@@ -5,17 +5,13 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
-import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.NavHostFragment
 import com.fourrz.movielist.databinding.ActivityMainBinding
 import com.fourrz.movielist.home.HomeFragment
+import com.google.android.material.navigation.NavigationView
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
